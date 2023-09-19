@@ -10,7 +10,7 @@ response.then((contests)=>{
     // console.log(contests[item])
     ihtml+=`
     <div class="card mx-2 my-2" style="width: 22rem;">
-    <img src="https://source.unsplash.com/1600x900/?contests" class="card-img-top" alt="card-img-">
+    <img src="/1.jpg" class="card-img-top" alt="card-img-">
     <div class="card-body">
       <h6 class="card-title">${contests[item].name}</h6>
       <p class="card-text">Status: ${contests[item].status}</p>
@@ -25,7 +25,7 @@ response.then((contests)=>{
     cardContainer.innerHTML=ihtml
   }
 },(Error)=>{
-  cardContainer.innerHTML="<h3>Some error occurred while processing your request.Please try again later</h3>"
+  document.body.innerHTML=`<img src="/503 Service unavailable.jpg " alt="503 Service unble">`
 })
 
 

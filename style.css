@@ -1,0 +1,10 @@
+.jumbotron{
+  background-image: url("/1.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  background-image: url("/1.jpg") !important;
+
+}
