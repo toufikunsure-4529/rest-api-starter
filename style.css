@@ -8,3 +8,14 @@
   background-image: url("/1.jpg") !important;
 
 }
+
+.errorMsg{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  font-size: 25px;
+  color: red;
+  font-weight: 500;
+}

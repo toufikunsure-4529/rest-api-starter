@@ -25,7 +25,7 @@ response.then((contests)=>{
     cardContainer.innerHTML=ihtml
   }
 },(Error)=>{
-  document.body.innerHTML=`<img src="/503 Service unavailable.jpg " alt="503 Service unble">`
+  document.body.innerHTML=`<img src="/503 Service unavailable.jpg" class="errorMsg">`
 })
 
 
